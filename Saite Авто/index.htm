@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Отзыв автомойка</title>
+    </head>
+    <body>
+        <form action="#" method="POST" enctype="multipart/form-data">
+        <div>
+            <div>
+                <p>Имя</p>
+                <input tabindex="1" placeholder="Введите имя" type="text" name="username">
+            </div>
+            <div>
+                <p>Номер телефона</p>
+                <input tabindex="2" placeholder="Введите номер" type="tel" name="userphone">
+            </div>
+            <div>
+                <p>Номер машины</p>
+                <input tabindex="3" placeholder="Введите номер машины" type="text" name="carname">
+            </div>
+            <div>
+                <p>Выберите услугу</p>
+                <p><input tabindex="4" checked type="checkbox" name="car wash" value="yes">Мойка машины</p>
+                <p><input tabindex="5" type="checkbox" name="polishing" value="yes">Полировка</p>
+                <p><input tabindex="6" type="checkbox" name="dry cleaning" value="yes">Химчистка</p>
+                <p><input tabindex="7" type="checkbox" name="detailing" value="yes">Детейлинг</p>    
+            </div>
+            <div>
+                <p>Время обслуживания</p>
+                <select name="service">
+                    <option tabindex="8" value="09:00-10:00">09:00-10:00</option>
+                    <option tabindex="8" value="10:00-11:00">10:00-11:00</option>
+                    <option tabindex="8" value="12:00-13:00">12:00-13:00</option>
+                    <option tabindex="8" value="13:00-14:00">13:00-14:00</option>
+                    <option tabindex="8" value="14:00-15:00">14:00-15:00</option>
+                    <option tabindex="8" value="15:00-16:00">15:00-16:00</option>
+                    <option tabindex="8" value="16:00-17:00">16:00-17:00</option>
+                    <option tabindex="8" value="17:00-18:00">17:00-18:00</option>
+                    <option tabindex="8" value="18:00-19:00">18:00-19:00</option>
+                    <option tabindex="8" value="19:00-20:00">19:00-20:00</option>
+                    <option tabindex="8" value="20:00-21:00">20:00-21:00</option>
+                    <option tabindex="8" value="21:00-22:00">21:00-22:00</option>
+                    <option tabindex="8" value="22:00-23:00">22:00-23:00</option>
+                    <option tabindex="8" value="23:00-00:00">23:00-00:00</option>
+                </select>
+            </div>
+            <div>
+            <p>Прикрепить фото</p>
+            <p><input tabindex="9" type="file" name="userfoto" value=""></p>
+            </div>
+            <div>
+                <p>Оставьте свой отзыв</p>
+                <textarea tabindex="10" name="text"></textarea>
+            </div>
+            <div>
+                    <p>Оцените качество обслуживания</p>
+                <div>
+                    <input tabindex="11" checked type="radio" name="rating" value="5" > * * * * *
+                </div>
+                <div>
+                    <input tabindex="11" type="radio" name="rating" value="4" > * * * *
+                </div>
+                <div>
+                    <input tabindex="11" type="radio" name="rating" value="3" > * * * 
+                </div>
+                <div>
+                    <input tabindex="11" type="radio" name="rating" value="2" > * *
+                </div>
+                <div>
+                    <input tabindex="11" type="radio" name="rating" value="1" > *
+                </div>
+            </div>    
+            <br>
+            <div>
+                <button  tabindex="12" type="submit">Отправить отзыв</button>
+                <button  tabindex="13" type="reset">Очистить</button>
+            </div>
+        </div>
+        </form>
+    </body>
+</html>
